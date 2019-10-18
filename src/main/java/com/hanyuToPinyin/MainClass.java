@@ -12,7 +12,7 @@ public class MainClass {
     public static void main( String[] args )
     {
         try {
-            String pinYin = getPinYin("你好世界,git提交");
+            String pinYin = getPinYin("你好世界");
             System.out.println( pinYin + "Hello World!" );
         }catch (Exception e){
             e.printStackTrace();  
